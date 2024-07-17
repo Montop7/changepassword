@@ -14,7 +14,6 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 app.use(session({
-  secret: 'your_secret_key',
   resave: false,
   saveUninitialized: true
 }));
